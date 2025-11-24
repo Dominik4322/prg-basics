@@ -1,6 +1,8 @@
 ###
 # Functions to read any data type from the keyboard
 #
+
+
 def input_string(message):
     string = str(input(message))
     return string
@@ -14,4 +16,4 @@ def input_real(message):
 
 def input_boolean(message):
     boolean = bool(input(message))
-    return boolean == "y"
+    return boolean
